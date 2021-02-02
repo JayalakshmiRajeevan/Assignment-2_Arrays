@@ -16,7 +16,10 @@ public class LargestAndSmallest
 				seclarge=large;
 				large=arr[i];
 			}
-			else if(arr[i]<small)
+		}
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]<small)
 			{
 				secsmall=small;
 				small=arr[i];
